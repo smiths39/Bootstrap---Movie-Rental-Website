@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title> Movie Express </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="../bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="../UI/intro.html">Movie Express</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="../UI/intro.html">Home</li></a>
+			  <li><a href="collection.html">Collection</a></li>
+			  <li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Genres<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="action.html">Action</a></li>
+                  <li><a href="comedy.html">Comedy</a></li>
+                  <li><a href="classic.html">Classics</a></li>
+                  <li><a href="drama.html">Drama</a></li>
+                  <li><a href="horror.html">Horror</a></li>
+                </ul>
+              </li>
+              <li><a href="../UI/contact.html">Contact</li></a>
+            </ul>
+            <form class="navbar-form pull-right">
+              <input class="span2" type="text" placeholder="Email">
+              <input class="span2" type="password" placeholder="Password">
+              <button type="submit" class="btn btn-primary btn-success"><a href="../UI/confirmation_sign_in.html">Sign in</button></a>
+			  <button type="submit" class="btn btn-primary btn-success">Register</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+		<form class="form-horizontal">
+			<h3> Registration </h3>
+			  <div class="control-group">
+				<label class="control-label" for="inputFullName">Enter Full Name</label>
+				<div class="controls">
+				  <input type="text" id="inputFullName" placeholder="Full Name...">
+				</div>
+			  </div>
+			  
+			  <div class="control-group">
+				<label class="control-label" for="inputUsername">Choose Username</label>
+				<div class="controls">
+				  <input type="password" id="inputUsername" placeholder="Username...">
+				</div>
+			  </div>
+			  
+			  <div class="control-group">
+				<label class="control-label" for="inputEmailAddress">Enter Email Address</label>
+				<div class="controls">
+				  <input type="password" id="inputEmailAddress" placeholder="Email Address...">
+				</div>
+			  </div>
+			  
+			  <div class="control-group">
+				<label class="control-label" for="inputRetypeEmailAddress">Retype Email Address</label>
+				<div class="controls">
+				  <input type="password" id="inputRetypeEmailAddress" placeholder="Retype Email Address...">
+				</div>
+			  </div>
+			  
+			  <div class="control-group">
+				<label class="control-label" for="inputPassword">Enter Password</label>
+				<div class="controls">
+				  <input type="password" id="inputPassword" placeholder="Password...">
+				</div>
+			  </div>
+			  
+			  <div class="control-group">
+				<label class="control-label" for="inputRetypePassword">Retype Password</label>
+				<div class="controls">
+				  <input type="password" id="inputRetypePassword" placeholder="Retype Password...">
+				</div>
+			  </div>
+			  
+			  <div class="control-group">
+				<label class="control-label" for="inputGender">Gender</label>
+				<div class="controls">
+				  <label class="checkbox">
+					<input type="checkbox"> Male
+				  </label>
+				  
+				  <label class="checkbox">
+					<input type="checkbox"> Female
+				  </label>
+				 </div>
+			  </div>
+			  
+			  <div class="control-group">
+				<label class="control-label" for="inputDOB">Date of Birth</label>
+				<div class="controls">
+				<select>
+					  <option>1</option>
+					  <option>2</option>
+					  <option>3</option>
+					  <option>4</option>
+					  <option>5</option>
+					  <option>6</option>
+					  <option>7</option>
+					  <option>8</option>
+					  <option>9</option>
+					  <option>10</option>
+					  <option>11</option>
+					  <option>12</option>
+					  <option>13</option>
+					  <option>14</option>
+					  <option>15</option>
+					  <option>16</option>
+					  <option>17</option>
+					  <option>18</option>
+					  <option>19</option>
+					  <option>20</option>
+					  <option>21</option>
+					  <option>22</option>
+					  <option>23</option>
+					  <option>24</option>
+					  <option>25</option>
+					  <option>26</option>
+					  <option>27</option>
+					  <option>28</option>
+					  <option>29</option>
+					  <option>30</option>
+					  <option>31</option>
+					</select>
+					
+					<select>
+						<option>January</option>
+						<option>February</option>
+						<option>March</option>
+						<option>April</option>
+						<option>May</option>
+						<option>June</option>
+						<option>July</option>
+						<option>August</option>
+						<option>September</option>
+						<option>October</option>
+						<option>November</option>
+						<option>December</option>
+					</select>
+
+					<select>
+						<option>2012</option>
+						<option>2011</option>
+						<option>2010</option>
+						<option>2009</option>
+						<option>2008</option>
+						<option>2007</option>
+						<option>2006</option>
+						<option>2005</option>
+						<option>2004</option>
+						<option>2003</option>
+						<option>2002</option>
+						<option>2001</option>
+						<option>2000</option>
+						<option>1999</option>
+						<option>1998</option>
+						<option>1997</option>
+						<option>1996</option>
+						<option>1995</option>
+						<option>1994</option>
+						<option>1993</option>
+						<option>1992</option>
+						<option>1991</option>
+						<option>1990</option>
+						<option>1989</option>
+						<option>1988</option>
+						<option>1987</option>
+						<option>1986</option>
+						<option>1985</option>
+						<option>1984</option>
+						<option>1983</option>
+						<option>1982</option>
+						<option>1981</option>
+						<option>1980</option>
+						<option>1979</option>
+						<option>1978</option>
+						<option>1977</option>
+						<option>1976</option>
+						<option>1975</option>
+						<option>1974</option>
+						<option>1973</option>
+						<option>1972</option>
+						<option>1971</option>
+						<option>1970</option>
+						<option>1969</option>
+						<option>1968</option>
+						<option>1967</option>
+						<option>1966</option>
+						<option>1965</option>
+						<option>1964</option>
+						<option>1963</option>
+						<option>1962</option>
+						<option>1961</option>
+						<option>1960</option>
+						<option>1959</option>
+						<option>1958</option>
+						<option>1957</option>
+						<option>1956</option>
+						<option>1955</option>
+						<option>1954</option>
+						<option>1953</option>
+						<option>1952</option>
+						<option>1951</option>
+						<option>1950</option>
+						<option>1949</option>
+						<option>1948</option>
+						<option>1947</option>
+						<option>1946</option>
+						<option>1945</option>
+						<option>1944</option>
+						<option>1943</option>
+						<option>1942</option>
+						<option>1941</option>
+						<option>1940</option>
+						<option>1939</option>
+						<option>1938</option>
+						<option>1937</option>
+						<option>1936</option>
+						<option>1935</option>
+						<option>1934</option>
+						<option>1933</option>
+						<option>1932</option>
+						<option>1931</option>
+						<option>1930</option>
+						<option>1929</option>
+						<option>1928</option>
+						<option>1927</option>
+						<option>1926</option>
+						<option>1925</option>
+						<option>1924</option>
+						<option>1923</option>
+						<option>1922</option>
+						<option>1921</option>
+						<option>1920</option>
+						<option>1919</option>
+						<option>1918</option>
+						<option>1917</option>
+						<option>1916</option>
+						<option>1915</option>
+						<option>1914</option>
+						<option>1913</option>
+						<option>1912</option>
+						<option>1911</option>
+						<option>1910</option>
+						<option>1909</option>
+						<option>1908</option>
+						<option>1907</option>
+						<option>1906</option>
+						<option>1905</option>
+						<option>1904</option>
+						<option>1903</option>
+						<option>1902</option>
+						<option>1901</option>
+						<option>1900</option>
+						
+						
+					</select>	
+					
+				</div>
+			  </div>
+			  
+				<div class="control-group">
+				  <button type="submit" class="btn btn-large btn-success"><a href="../UI/confirmation_register.html"> Register</button>
+				</div>
+			  </div>
+		</form>
+	  
+	 
+      <hr>
+
+      <footer>
+        <p>&copy; MovieExpress 2012</p>
+      </footer>
+
+    </div> 
+    
+	<!-- ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap-transition.js"></script>
+    <script src="../assets/js/bootstrap-alert.js"></script>
+    <script src="../assets/js/bootstrap-modal.js"></script>
+    <script src="../assets/js/bootstrap-dropdown.js"></script>
+    <script src="../assets/js/bootstrap-scrollspy.js"></script>
+    <script src="../assets/js/bootstrap-tab.js"></script>
+    <script src="../assets/js/bootstrap-tooltip.js"></script>
+    <script src="../assets/js/bootstrap-popover.js"></script>
+    <script src="../assets/js/bootstrap-button.js"></script>
+    <script src="../assets/js/bootstrap-collapse.js"></script>
+    <script src="../assets/js/bootstrap-carousel.js"></script>
+    <script src="../assets/js/bootstrap-typeahead.js"></script>
+
+  </body>
+</html>
